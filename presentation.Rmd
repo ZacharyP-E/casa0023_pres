@@ -1,7 +1,7 @@
 ---
 title: "Sentinel 5P"
 subtitle: "CASA0023"
-author: "by Zachary Pescod-Evceriss"
+author: "by Zachary Pescod-Everiss"
 institute: "CASA, UCL"
 date: "2023/01/25 (updated: `r Sys.Date()`)"
 output:
