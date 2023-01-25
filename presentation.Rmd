@@ -1,0 +1,101 @@
+---
+title: "Sentinel 5P"
+subtitle: "CASA0023"
+author: "by Zachary Pescod-Evceriss"
+institute: "CASA, UCL"
+date: "2023/01/25 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## Summary
+
+.pull-left[
+
+Launched in 2017 by the European Space Agency
+
+Orbits at altitude of 824km
+
+Measuring pollutants in Earth's atmosphere, including:
+- Ozone (O3)
+- Nitrogen Dioxide (NO2)
+- Sulfur Dioxide (SO2)
+- Methane (CH4)
+- Carbon Monoxide (CO)
+
+Cost: €45.5 million
+
+]
+
+.pull-right[
+```{r echo=FALSE}
+knitr::include_graphics('https://www.eoportal.org/api/cms/documents/163813/6584772/Sentinel-5P40.jpg/db3400ce-664d-e2e3-de3b-d6d96ec4cd0d?t=1666497256002')
+```
+
+
+Image credit: [European Space Agency](https://www.esa.int/Enabling_Support/Operations/Sentinel-5P_operations)
+
+]
+
+---
+# Summary: Resoloution
+
+Temporal: 16 days
+
+Spatial: 250m - 1000m
+
+
+
+---
+class: inverse, center, middle
+
+# Applications 
+#### of Sentinel 5P
+
+
+---
+# Applications: Overall
+
+
+
+```{r echo=FALSE}
+DiagrammeR::grViz("digraph {
+  
+graph[layout = dot, rankdir = LR]
+
+a [label = 'Sentinel-5P', shape = square, fillcolor = Black]
+b [label = 'Climate Research']
+c [label = 'Air Quality Monitoring']
+d [label = 'Volcanic Ash Monitoring']
+
+
+a -> {b c d}
+}")
+```
+
+
+---
+# Applications: Air Quality Monitoring
+#### Concentrations of pollutants can be monitored using Sentinel-5P.
+
+.pull-left[
+s
+]
+
+.pull-right[
+```{r echo=FALSE}
+knitr::include_graphics('https://i0.wp.com/eos.org/wp-content/uploads/2017/12/sentinel-5p-sees-nitrogen-dioxide-over-europe.png?fit=820%2C615&ssl=1
+')
+```
+
+
+Image credit: [Eos](https://eos.org/articles/advanced-satellite-tracks-air-pollution-in-extraordinary-detail)
+
+]
+---
+
