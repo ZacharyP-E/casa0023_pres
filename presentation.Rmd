@@ -80,11 +80,16 @@ a -> {b c d}
 
 
 ---
-# Applications: Air Quality Monitoring
+# Applications: Air Quality Monitoring 1
 #### Concentrations of pollutants can be monitored using Sentinel-5P.
 
 .pull-left[
-s
+The Tropomi sensor is designed for atmospheric monitoring, quantifying concentration of pollutants. 
+
+These pollutants have potential negative effects on the environment and human health. 
+
+- Sentinel-5P data provides key information on the wider-scale sources of pollutants. 
+- It's data can validate air quality models, allowing better understanding of the pollutants behaviours. 
 ]
 
 .pull-right[
@@ -98,4 +103,22 @@ Image credit: [Eos](https://eos.org/articles/advanced-satellite-tracks-air-pollu
 
 ]
 ---
+# Applications: Air Quality Monitoring 2
+#### Assessment of Air Quality Managment Strategies
+
+
+.pull-left[
+Identification of pollutant concentration before and after the impleentation of new policy allows the effectiveness to be assessed. 
+]
+
+
+.pull-right[
+```{r echo=FALSE}
+knitr::include_graphics('https://wsds.teriin.org/2018/images/theme-img6.jpg')
+```
+
+
+Image credit: [World Sustainable Devolopment Summit](https://wsds.teriin.org/2018/breathing-clean-air.php)
+
+]
 
