@@ -21,6 +21,7 @@ library(xaringanExtra)
 library(knitr)
 
 xaringanExtra::use_tachyons()
+xaringanExtra::use_progress_bar(color = "#0051BA", location = "bottom")
 xaringanExtra::use_broadcast()
 xaringanExtra::use_search(show_icon = TRUE, auto_search = FALSE)
 xaringanExtra::use_clipboard()
