@@ -17,7 +17,7 @@ output:
 
 .pull-left[
 
-Launched in 2017 by the European Space Agency
+Launched in 2017 by the European Space Agency, part of their Copernicus program.
 
 Orbits at altitude of 824km
 
@@ -46,17 +46,34 @@ Image credit: [European Space Agency](https://www.esa.int/Enabling_Support/Opera
 # Summary: Resoloution
 
 
-Temporal: 16 days
+- 1 day revisit time
 
-Spatial: 250m - 1000m
+- The Sentinel 5p sensor has 3 instruments: Tropomi, IASI-NG, and Pandonia.
+Tropomi is the main instrument and has a swath width of **2,600 km**.
+
+- It operates in the ultraviolet, visible, near-infrared, and shortwave-infrared spectral ranges.
+
+
+
+
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics('https://imageio.forbes.com/specials-images/imageserve/6398de50fd70c4aa61f47d8b/EOI-Space-VLEO-satellites-/960x0.jpg?format=jpg&width=360')
+```
+
+
+Image credit: [Forbes](https://imageio.forbes.com/specials-images/imageserve/6398de50fd70c4aa61f47d8b/EOI-Space-VLEO-satellites-/960x0.jpg?format=jpg&width=960)
 
 
 
 ---
 class: inverse, center, middle
 
-# Applications 
-#### of Sentinel 5P
+# Summary: Limitations 
+
+**Limited Spatial Resoloution:** The spatial resolution of Sentinel 5p is relatively coarse compared to other satellite sensors.
+
+
+**Limited Crossover:** The sensor is primarily designed to monitor atmospheric composition, so it may not be suitable for other applications.
 
 
 ---
@@ -126,4 +143,20 @@ Image credit: [World Sustainable Devolopment Summit](https://wsds.teriin.org/201
 ---
 # Reflection
 #### How will the data be used in the future?
+
+---
+# Future Developments
+- The European Space Agency is planning to launch the Sentinel 5p Second Generation satellite in 2023.
+- This satellite will have improved capabilities and will be able to monitor additional pollutants such as methane and formaldehyde.
+
+```{r echo=FALSE, out.width= "75%", fig.align='center'}}
+knitr::include_graphics('https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2017/08/sentinel-5p_on_rockot/17112710-1-eng-GB/Sentinel-5P_on_Rockot_pillars.png')
+```
+
+
+Image credit: [ESA](https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2017/08/sentinel-5p_on_rockot/17112710-1-eng-GB/Sentinel-5P_on_Rockot_pillars.png
+)
+
+
+
 
