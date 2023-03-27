@@ -49,7 +49,8 @@ myBib <- ReadBib("./References.bib", check = FALSE)
 
 ```
 
-## Summary
+
+# Summary
 
 .pull-left[
 
@@ -106,10 +107,12 @@ class: inverse, center, middle
 
 # Summary: Limitations 
 
-**Limited Spatial Resoloution:** The spatial resolution of Sentinel 5p is relatively coarse compared to other satellite sensors.
+####Limited Spatial Resoloution:
+The spatial resolution of Sentinel 5p is relatively coarse compared to other satellite sensors.
 
 
-**Limited Crossover:** The sensor is primarily designed to monitor atmospheric composition, so it may not be suitable for other applications.
+####Limited Crossover:
+The sensor is primarily designed to monitor atmospheric composition, so it may not be suitable for other applications.
 
 
 ---
@@ -148,8 +151,7 @@ These pollutants have potential negative effects on the environment and human he
 
 .pull-right[
 ```{r echo=FALSE}
-knitr::include_graphics('https://i0.wp.com/eos.org/wp-content/uploads/2017/12/sentinel-5p-sees-nitrogen-dioxide-over-europe.png?fit=820%2C615&ssl=1
-')
+knitr::include_graphics('https://i0.wp.com/eos.org/wp-content/uploads/2017/12/sentinel-5p-sees-nitrogen-dioxide-over-europe.png')
 ```
 
 
@@ -167,11 +169,24 @@ Image credit: [Eos](https://eos.org/articles/advanced-satellite-tracks-air-pollu
 
 ---
 # Reflection
+- Sentinel 5P appears to be a method with increased spatial resolution and reproducibility when compared to its existing counterpart (ground measurements) for conducting air pollution research. Allowing for the evaluation of air quality mitigation measures.
+- However, the spatial resolution of Sentinel-5P is limited to 7 km, which can restrict its applications in identifying and monitoring small-scale sources of atmospheric pollution or atmospheric phenomena. Nonetheless, it remains a useful tool for monitoring the overall state of the atmosphere on a global scale.
+
+```{r echo=FALSE, out.width= "75%", fig.align='center'}
+knitr::include_graphics('https://gisgeography.com/wp-content/uploads/2015/10/Spatial-Resolution-Comparison.png
+')
+```
+
+Image credit: [GIS Geography](https://gisgeography.com/wp-content/uploads/2015/10/Spatial-Resolution-Comparison.png
+)
+
+---
+# Reflection
 #### Future Developments
 - The European Space Agency is planning to launch the Sentinel 5p Second Generation satellite in 2023.
 - This satellite will have improved capabilities and will be able to monitor additional pollutants such as methane and formaldehyde.
 
-```{r echo=FALSE, out.width= "75%", fig.align='center'}
+```{r echo=FALSE, out.width= "70%", fig.align='center'}
 knitr::include_graphics('https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2017/08/sentinel-5p_on_rockot/17112710-1-eng-GB/Sentinel-5P_on_Rockot_pillars.png')
 ```
 
