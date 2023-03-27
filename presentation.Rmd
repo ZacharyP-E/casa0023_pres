@@ -6,6 +6,7 @@ institute: "CASA, UCL"
 date: "2023/01/25 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    css: ["xaringan-themer.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -21,7 +22,7 @@ library(xaringanExtra)
 library(knitr)
 
 xaringanExtra::use_tachyons()
-xaringanExtra::use_progress_bar(color = "#0051BA", location = "bottom")
+xaringanExtra::use_progress_bar(color = "#32064A", location = "bottom")
 xaringanExtra::use_broadcast()
 xaringanExtra::use_search(show_icon = TRUE, auto_search = FALSE)
 xaringanExtra::use_clipboard()
