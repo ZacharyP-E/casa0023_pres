@@ -50,7 +50,7 @@ class: center, middle, inverse, title-slide
 ### CASA, UCL
 ]
 .date[
-### 2023/01/25 (updated: 2023-03-26)
+### 2023/01/25 (updated: 2023-03-27)
 ]
 
 ---
@@ -76,6 +76,7 @@ class: center, middle, inverse, title-slide
   0% { width: calc(var(--slide-previous) / var(--slide-total) * 100%); }
   100% { width: calc(var(--slide-current) / var(--slide-total) * 100%); }
 }</style>
+
 
 
 ## Summary
@@ -142,8 +143,8 @@ class: inverse, center, middle
 
 
 
-<div id="htmlwidget-93be11abdfcc0c3c0a64" style="width:504px;height:504px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-93be11abdfcc0c3c0a64">{"x":{"diagram":"digraph {\n  \ngraph[layout = dot, rankdir = LR]\n\na [label = \"Sentinel-5P\", shape = square, fillcolor = Black]\nb [label = \"Climate Research\"]\nc [label = \"Air Quality Monitoring\"]\nd [label = \"Volcanic Ash Monitoring\"]\n\n\na -> {b c d}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-fe2014be22b8de8f9a17" style="width:504px;height:504px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fe2014be22b8de8f9a17">{"x":{"diagram":"digraph {\n  \ngraph[layout = dot, rankdir = LR]\n\na [label = \"Sentinel-5P\", shape = square, fillcolor = Black]\nb [label = \"Climate Research\"]\nc [label = \"Air Quality Monitoring\"]\nd [label = \"Volcanic Ash Monitoring\"]\n\n\na -> {b c d}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 
 ---
@@ -169,28 +170,16 @@ Image credit: [Eos](https://eos.org/articles/advanced-satellite-tracks-air-pollu
 ]
 ---
 # Applications: Air Quality Monitoring 2
-#### Assessment of Air Quality Managment Strategies
+#### Assessment of Factors Influencing Air Quality
 
+- One study used spatial-temporal analysis to identify factors impacting NO2 concentration in China based on the data from Sentinel-5P TROPOMI. The results reveal monthly fluctuations and a "high in East and low in West" spatial pattern, and identify positive correlations between NO2 concentration and nighttime light intensity, secondary and tertiary industries proportion, whole society electricity consumption, and vehicle ownership in certain regions ([Zheng, Yang, Wu et al., 2019](#bib-zheng2019)).
 
-.pull-left[
-Identification of pollutant concentration before and after the impleentation of new policy allows the effectiveness to be assessed. 
-]
+- A different study identified changes in spatial NO2 distribution over Europe between similar periods in 2019 and 2020, based on the ESA Copernicus Sentinel-5P products. Results reveal a remarkable decrease of tropospheric NO2 concnetration even up to 85% in some European cities during the COVID-19 lockdown period, all supported by ground truth data ([Vîrghileanu, Săvulescu, Mihai et al., 2020](#bib-virghileanu2020)).
 
-
-.pull-right[
-![](https://wsds.teriin.org/2018/images/theme-img6.jpg)&lt;!-- --&gt;
-
-
-Image credit: [World Sustainable Devolopment Summit](https://wsds.teriin.org/2018/breathing-clean-air.php)
-
-]
 
 ---
 # Reflection
-#### How will the data be used in the future?
-
----
-# Future Developments
+#### Future Developments
 - The European Space Agency is planning to launch the Sentinel 5p Second Generation satellite in 2023.
 - This satellite will have improved capabilities and will be able to monitor additional pollutants such as methane and formaldehyde.
 
@@ -201,6 +190,17 @@ Image credit: [ESA](https://www.esa.int/var/esa/storage/images/esa_multimedia/vi
 )
 
 
+---
+# References 
+
+&lt;a name=bib-virghileanu2020&gt;&lt;/a&gt;[Vîrghileanu, M., I. Săvulescu, B. Mihai, et
+al.](#cite-virghileanu2020) (2020). "Nitrogen Dioxide (NO2) Pollution Monitoring with Sentinel-5P
+Satellite Imagery over Europe during the Coronavirus Pandemic Outbreak". In: _Remote Sensing_
+12.21, p. 3575.
+
+&lt;a name=bib-zheng2019&gt;&lt;/a&gt;[Zheng, Z., Z. Yang, Z. Wu, et al.](#cite-zheng2019) (2019). "Spatial
+Variation of NO2 and Its Impact Factors in China: An Application of Sentinel-5P Products". In:
+_Remote Sensing_ 11.16, p. 1939.
 
 
     </textarea>

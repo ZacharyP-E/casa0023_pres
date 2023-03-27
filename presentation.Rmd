@@ -34,6 +34,19 @@ xaringanExtra::use_extra_styles(
 )
 ```
 
+```{r include=FALSE}
+library(RefManageR)
+library(knitcitations)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields=c("doi", "url", "urldate", "issn"))
+myBib <- ReadBib("./References.bib", check = FALSE)
+
+```
 
 ## Summary
 
@@ -144,30 +157,16 @@ Image credit: [Eos](https://eos.org/articles/advanced-satellite-tracks-air-pollu
 ]
 ---
 # Applications: Air Quality Monitoring 2
-#### Assessment of Air Quality Managment Strategies
+#### Assessment of Factors Influencing Air Quality
 
+- One study used spatial-temporal analysis to identify factors impacting NO2 concentration in China based on the data from Sentinel-5P TROPOMI. The results reveal monthly fluctuations and a "high in East and low in West" spatial pattern, and identify positive correlations between NO2 concentration and nighttime light intensity, secondary and tertiary industries proportion, whole society electricity consumption, and vehicle ownership in certain regions `r Citep(myBib, "zheng2019")`.
 
-.pull-left[
-Identification of pollutant concentration before and after the impleentation of new policy allows the effectiveness to be assessed. 
-]
+- A different study identified changes in spatial NO2 distribution over Europe between similar periods in 2019 and 2020, based on the ESA Copernicus Sentinel-5P products. Results reveal a remarkable decrease of tropospheric NO2 concnetration even up to 85% in some European cities during the COVID-19 lockdown period, all supported by ground truth data `r Citep(myBib, "virghileanu2020")`.
 
-
-.pull-right[
-```{r echo=FALSE}
-knitr::include_graphics('https://wsds.teriin.org/2018/images/theme-img6.jpg')
-```
-
-
-Image credit: [World Sustainable Devolopment Summit](https://wsds.teriin.org/2018/breathing-clean-air.php)
-
-]
 
 ---
 # Reflection
-#### How will the data be used in the future?
-
----
-# Future Developments
+#### Future Developments
 - The European Space Agency is planning to launch the Sentinel 5p Second Generation satellite in 2023.
 - This satellite will have improved capabilities and will be able to monitor additional pollutants such as methane and formaldehyde.
 
@@ -180,5 +179,11 @@ Image credit: [ESA](https://www.esa.int/var/esa/storage/images/esa_multimedia/vi
 )
 
 
+---
+# References 
+
+```{r bibliography, results='asis', echo=FALSE, warning=FALSE}
+PrintBibliography(myBib, start = 1, end = 2)
+```
 
 
